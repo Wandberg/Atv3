@@ -40,9 +40,9 @@ public class TicketMachine {
         if (saldo < valor) {
             throw new SaldoInsuficienteException();
         }
-        String result = "*****************\n";
-        result += "*** R$ " + saldo + ",00 ****\n";
-        result += "*****************\n";
+        String result = "\n";
+        result += "*** Rhahahahhahahahha " + saldo + ",00 ****\n";
+        result += "Rihana\n";
         return result;
     }
 }
